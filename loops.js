@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 function forLoop(array){
@@ -26,4 +27,11 @@ function doWhileLoop(array){
   }
   while(incrementVariable() && array.length>0)
   return array
+=======
+function forLoop(array){for (let i = 1; i<25; i++){
+        //if (i===1)
+        { console.log(`I am ${i} strange loop.`)}
+	//else{ console.log(`I am ${i} strange loops.`)}
+}
+>>>>>>> b8b9f28dd5db0793e490a3c522c2c568e36800f4
 }
